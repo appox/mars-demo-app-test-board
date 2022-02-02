@@ -1,0 +1,104 @@
+{
+  "virtualUser": [
+    {
+      "userKey": "docImporter",
+      "name": "Import User",
+      "description": "test ..."
+    },
+    {
+      "userKey": "arthur",
+      "name": "Arthur",
+      "description": "A real person ;-)"
+    }
+  ],
+  "label": [
+    {
+      "labelKey": "error",
+      "labelType": "Public",
+      "name": "Error",
+      "description": "",      
+      "backgroundColor": "#ff0000"
+    },
+    {
+      "labelKey": "feature",
+      "labelType": "Public",
+      "name": "Info",
+      "description": "",      
+      "backgroundColor": "#0000ff"
+    },
+    {
+      "labelKey": "ui",
+      "labelType": "Public",
+      "name": "UI/UX",
+      "description": "",      
+      "backgroundColor": "#ffb266"
+    },
+    {
+      "labelKey": "database",
+      "labelType": "Public",
+      "name": "Database",
+      "description": "",      
+      "backgroundColor": "#990000"
+    }
+  ],
+  "teamFilter": [     
+    {      
+      "teamFilterKey": "errorLabelFilter",          
+      "name": "Errors",      
+      "description": "",
+      "filterGroup": "board",
+      "filter": {
+        "label": {
+          "isIncludeFilter": true,
+          "mode": "SelectionSet",
+          "selection": [
+            "error"
+          ]          
+        },
+        "sort": ["LastUpdateDateDesc"]
+      }
+    },
+    {      
+      "teamFilterKey": "featureLabelFilter",          
+      "name": "Features",      
+      "description": "",
+      "filterGroup": "board",
+      "filter": {
+        "label": {
+          "isIncludeFilter": true,
+          "mode": "SelectionSet",
+          "selection": [
+            "feature"
+          ]          
+        },
+        "sort": ["LastUpdateDateDesc"]
+      }
+    }
+  ],
+  "ticketStatus": [
+    {      
+      "key": "todo",
+      "name": "TODO",
+      "title": "TODP",
+      "description": "TODO ...",
+      "statusType": "New",
+      "color": "#CCE5FF"
+    },
+    {      
+      "key": "wip",
+      "name": "WIP",
+      "title": "Work in progress",
+      "description": "wip ...",
+      "statusType": "Wip",
+      "color": "#0080FF"
+    },
+    {      
+      "key": "done",
+      "name": "DONE",
+      "title": "Done",
+      "description": "done ...",
+      "statusType": "Done",
+      "color": "#00CC00"
+    }
+  ]
+}

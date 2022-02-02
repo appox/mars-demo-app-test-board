@@ -1,0 +1,15 @@
+{
+	"id": "static-content-test-board",
+	"teamType": "StaticContentTeam",
+	"projectName": "Static content test board",
+	"projectDescription": "test",
+	"projectIcon": "team/icon.png",
+	"initTeamTitle": "Test Boards",
+	"initTeamDescription": "This is a test",
+	"initTeamIcon": "team/icon.png",
+	"initTeamBackgroundImage": "team/backgroundImage.jpg",
+	"version": "1.0.0",	
+	"importUserKey": "docImporter",
+	"isPublic": true,
+	"usePassword": false
+}
