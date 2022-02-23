@@ -14,3 +14,12 @@ variation: ContentProject
     filterType: NavigationFilter
     navigationType: childrenList
 {{ /MODULE }}
+
+{{ MODULE }}
+  moduleType: KeyValueStore
+  moduleTitle: Data
+  data:
+    storeKey: versionInfo
+    map:
+      foo: bar
+{{ /MODULE }}

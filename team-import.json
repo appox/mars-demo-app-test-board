@@ -1,6 +1,6 @@
 {
 	"id": "static-content-test-board",
-	"teamType": "StaticContentTeam",
+	"teamType": "StaticContentSingleScreenTeam",
 	"projectName": "Static content test board",
 	"projectDescription": "test",
 	"projectIcon": "team/icon.png",
@@ -11,5 +11,9 @@
 	"version": "1.0.0",	
 	"importUserKey": "docImporter",
 	"isPublic": true,
-	"usePassword": false
+	"usePassword": false,
+	"staticContentTeamType": "Default",
+	"config": {
+		"rootDocumentKey": "root"
+	}
 }
