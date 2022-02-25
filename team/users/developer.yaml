@@ -1,0 +1,6 @@
+---
+- userKey: "dev1"
+  name: "Linus"
+  description: ""
+  icon:
+    asset: "developer/dev1.png"

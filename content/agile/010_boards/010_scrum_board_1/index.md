@@ -1,5 +1,5 @@
 {{ DOC }}
-title: "Test Board 1"
+title: "Scrum Board"
 type: Board
 icon: 
   asset: team/icon.png

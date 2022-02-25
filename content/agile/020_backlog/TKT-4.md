@@ -1,16 +1,12 @@
 {{ DOC }}
-title: "Implement new button design"
-key: TKT-1
-keyName: TKT-1
-ticketStatusKey: wip
+title: "Build Flutter Windows app"
+key: TKT-4
+keyName: TKT-4
 type: Card
 labels:   
-  - ui
-  - feature 
-references:
-    - 
-      documentKey: TKT-2     
-      group: related   
+  - flutter
+authorsKeys:
+- "dev1"      
 {{ /DOC }}
 
 {{ USE_LAYOUT }}

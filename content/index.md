@@ -5,8 +5,9 @@ key: root
 variation: ContentProject                
 {{ /DOC }}
 
-## Board - start Page
- * nach den changes
+## DevProject
+ 
+ * Startseite, die so nicht mehr sichtar sein sollte. (Navbar)
 
 {{ MODULE }}
   moduleType: DocumentFilter
@@ -14,6 +15,8 @@ variation: ContentProject
     filterType: NavigationFilter
     navigationType: childrenList
 {{ /MODULE }}
+
+## Version Info
 
 {{ MODULE }}
   moduleType: KeyValueStore

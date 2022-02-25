@@ -1,10 +1,10 @@
 {
 	"id": "static-content-test-board",
-	"teamType": "StaticContentSingleScreenTeam",
+	"teamType": "StaticContentNavbarScreenTeam",
 	"projectName": "Static content test board",
 	"projectDescription": "test",
 	"projectIcon": "team/icon.png",
-	"initTeamTitle": "Test Boards",
+	"initTeamTitle": "Dev Projetc demo",
 	"initTeamDescription": "This is a test",
 	"initTeamIcon": "team/icon.png",
 	"initTeamBackgroundImage": "team/backgroundImage.jpg",
@@ -12,8 +12,30 @@
 	"importUserKey": "docImporter",
 	"isPublic": true,
 	"usePassword": false,
-	"staticContentTeamType": "Default",
+	"staticContentTeamType": "DevProject",
 	"config": {
-		"rootDocumentKey": "root"
+		"rootDocumentKey": "root",
+		"navbar": {
+			"tabs": [
+				{
+					"tabId": "TabMain",
+					"tabRootDocumentKey": "mainBlog",		
+					"name": "Blog",					
+					"icon": "feed"			
+				},
+				{
+					"tabId": "Tab2",
+					"tabRootDocumentKey": "mainAgile",		
+					"name": "Agile",				
+					"icon": "dashboard"			
+				},	
+				{
+					"tabId": "Tab3",
+					"tabRootDocumentKey": "mainDocs",		
+					"name": "Docs",					
+					"icon": "article"			
+				}
+			]
+		}
 	}
 }
